@@ -3,22 +3,239 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="images/favicon.png">
     <title>The UX Review Blog</title>
     <link rel="icon" href="images/favicon.png">
 
     <!-- ========= FontFamily ========= -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <!-- ========= Custom Css file ========= -->
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/media.css">
 
 
 </head>
 
 <body>
-    
+    <!-- hero page -->
+    <div class="hero-page">
+        <div class="container">
+            <!-- navbar -->
+            <div class="navbar d-flex">
+                <div class="logo">
+                    <a href="#index.html">The UX <span>Review</span></a>
+                </div>
+
+                <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox d-none">
+
+                <label for="nav-toggle" class="nav-toggle-label">
+                    <span class="hamburger-icon"></span>
+                </label>
+
+                <div class="nav-items d-none">
+                    <ul class="navbar-list">
+                        <li><a href="#">HOME</a></li>
+                        <li class="d-none lg-d-block">
+                            <div class="star">
+                                <img src="images/icons/star-solid-full.png" alt="gray img">
+                            </div>
+                        </li>
+                        <li><a href="#">LATEST ARTICLES</a></li>
+                        <li class="d-none lg-d-block">
+                            <div class="star">
+                                <img src="images/icons/star-solid-full.png" alt="gray img">
+                            </div>
+                        </li>
+                        <li><a href="#">AUTHORS</a></li>
+                        <li class="d-none lg-d-block">
+                            <div class="star">
+                                <img src="images/icons/star-solid-full.png" alt="gray img">
+                            </div>
+                        </li>
+                        <li><a href="#">COMMUNITY</a></li>
+                    </ul>
+                </div>
+
+                <div class="subs-btn d-none">
+                    <button>SUBSCRIBE NOW</button>
+                </div>
+            </div>
+            <!-- end-navbar  -->
+            <!-- hero content -->
+            <div class="outer-content d-flex flex-wrap">
+                <div class="content lg-50">
+                    <div class="container">
+                        <div class="trending-badge">
+                            <span>🔥 TRENDING NOW</span>
+                        </div>
+                        <div class="head-title">
+                            <h1>
+                                <span class="line1">
+                                    BRUTAL <br>
+                                </span>
+                                <span class="line2">
+                                    THOUGHTS <br>
+                                </span>
+                                <span class="line3">
+                                    BOLD IDEAS <br>
+                                </span>
+                            </h1>
+                        </div>
+                        <div class="description">
+                            <p>
+                                Raw, unfiltered content about tech, design, and culture. No sugar-coating, just pure
+                                truth
+                                that
+                                hits different.
+                            </p>
+                        </div>
+                        <div class="head-btns d-flex">
+                            <div class="start-btn">
+                                <button>
+                                    <img src="images/icons/rocket-solid-full.png" alt="rocket icon">
+                                    START READING
+                                </button>
+                            </div>
+                            <div class="watch-btn">
+                                <button>
+                                    <img src="images/icons/play-solid-full.png" alt="play icon">
+                                    WATCH INTRO
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-img lg-50">
+                    <img src="images/hero-img.png" alt="hero image">
+                    <div class="img-fixed-span">
+                        <span>FEATURED</span>
+                    </div>
+                </div>
+            </div>
+            <!-- end-hero content -->
+        </div>
+    </div>
+    <!-- end-hero page -->
+
+    <!-- latest articles section -->
+    <div class="latest-articles">
+        <div class="container">
+            <div class="section-title d-flex">
+                <h2>LATEST ARTICLES</h2>
+                <span>🔥 FRESH CONTENT</span>
+            </div>
+            <div class="articles-grid d-flex flex-wrap">
+                <!-- article item 1 -->
+                <div class="shadow">
+                    <div class="article-item">
+                        <div class="article-img">
+                            <img src="images/user-engagement-2.jpg" alt="article image 1">
+                        </div>
+                        <div class="new-badge">NEW</div>
+                        <div class="article-content">
+                            <div class="tech-badge">TECH</div>
+                            <h3 class="article-title">Why Your Website Needs More Edge</h3>
+                            <p class="article-description">Exploring the psychological impact of bold, unapologetic
+                                design
+                                choices on user engagement and brand perception in the digital age.</p>
+                            <div class="article-meta">
+                                <div class="f-col d-flex">
+                                    <div class="author-name"><img src="images/icons/user-solid-full.png"
+                                            alt="user icon"> BY
+                                        ALEX BRUTAL</div>
+                                    <div class="publish-date"><img src="images/icons/calendar-solid-full.png"
+                                            alt="calendar icon"> JAN 8, 2025</div>
+                                </div>
+                                <div class="sec-col d-flex">
+                                    <div class="read-time"><img src="images/icons/clock-solid-full.png"
+                                            alt="clock icon"> 5
+                                        MIN READ</div>
+                                    <div class="likes-count"><img src="images/icons/heart-solid-full-red.png"
+                                            alt="heart sign"> 256</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- article item 2 -->
+                <div class="shadow">
+                    <div class="article-item">
+                        <div class="article-img">
+                            <img src="images/user-engagement-2.jpg" alt="article image 1">
+                        </div>
+                        <div class="new-badge">NEW</div>
+                        <div class="article-content">
+                            <div class="tech-badge">TECH</div>
+                            <h3 class="article-title">Why Your Website Needs More Edge</h3>
+                            <p class="article-description">Exploring the psychological impact of bold, unapologetic
+                                design
+                                choices on user engagement and brand perception in the digital age.</p>
+                            <div class="article-meta">
+                                <div class="f-col d-flex">
+                                    <div class="author-name"><img src="images/icons/user-solid-full.png"
+                                            alt="user icon"> BY
+                                        ALEX BRUTAL</div>
+                                    <div class="publish-date"><img src="images/icons/calendar-solid-full.png"
+                                            alt="calendar icon"> JAN 8, 2025</div>
+                                </div>
+                                <div class="sec-col d-flex">
+                                    <div class="read-time"><img src="images/icons/clock-solid-full.png"
+                                            alt="clock icon"> 5
+                                        MIN READ</div>
+                                    <div class="likes-count"><img src="images/icons/heart-solid-full-red.png"
+                                            alt="heart sign"> 256</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- article item 3 -->
+                <div class="shadow">
+                    <div class="article-item">
+                        <div class="article-img">
+                            <img src="images/user-engagement-2.jpg" alt="article image 1">
+                        </div>
+                        <div class="new-badge">NEW</div>
+                        <div class="article-content">
+                            <div class="tech-badge">TECH</div>
+                            <h3 class="article-title">Why Your Website Needs More Edge</h3>
+                            <p class="article-description">Exploring the psychological impact of bold, unapologetic
+                                design
+                                choices on user engagement and brand perception in the digital age.</p>
+                            <div class="article-meta">
+                                <div class="f-col d-flex">
+                                    <div class="author-name"><img src="images/icons/user-solid-full.png"
+                                            alt="user icon"> BY
+                                        ALEX BRUTAL</div>
+                                    <div class="publish-date"><img src="images/icons/calendar-solid-full.png"
+                                            alt="calendar icon"> JAN 8, 2025</div>
+                                </div>
+                                <div class="sec-col d-flex">
+                                    <div class="read-time"><img src="images/icons/clock-solid-full.png"
+                                            alt="clock icon"> 5
+                                        MIN READ</div>
+                                    <div class="likes-count"><img src="images/icons/heart-solid-full-red.png"
+                                            alt="heart sign"> 256</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- end-latest articles section -->
+    <div class="footer">
+        <div class="container">
+            <span>© 2202</span>
+            <h1>HTMLSDDWD</h1>
+        </div>
 </body>
 
 </html>
