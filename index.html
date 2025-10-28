@@ -21,50 +21,51 @@
 </head>
 
 <body>
+
+    <!-- navbar -->
+    <div class="navbar d-flex">
+        <div class="logo">
+            <a href="#index.html">The UX <span>Review</span></a>
+        </div>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox d-none">
+
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span class="hamburger-icon"></span>
+        </label>
+
+        <div class="nav-items d-none">
+            <ul class="navbar-list">
+                <li><a href="#">HOME</a></li>
+                <li class="d-none lg-d-block">
+                    <div class="star">
+                        <img src="images/icons/star-solid-full.png" alt="gray img">
+                    </div>
+                </li>
+                <li><a href="#">LATEST ARTICLES</a></li>
+                <li class="d-none lg-d-block">
+                    <div class="star">
+                        <img src="images/icons/star-solid-full.png" alt="gray img">
+                    </div>
+                </li>
+                <li><a href="#">AUTHORS</a></li>
+                <li class="d-none lg-d-block">
+                    <div class="star">
+                        <img src="images/icons/star-solid-full.png" alt="gray img">
+                    </div>
+                </li>
+                <li><a href="#">COMMUNITY</a></li>
+            </ul>
+        </div>
+
+        <div class="subs-btn d-none">
+            <button>SUBSCRIBE NOW</button>
+        </div>
+    </div>
+    <!-- end-navbar  -->
     <!-- hero page -->
     <div class="hero-page">
         <div class="container">
-            <!-- navbar -->
-            <div class="navbar d-flex">
-                <div class="logo">
-                    <a href="#index.html">The UX <span>Review</span></a>
-                </div>
-
-                <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox d-none">
-
-                <label for="nav-toggle" class="nav-toggle-label">
-                    <span class="hamburger-icon"></span>
-                </label>
-
-                <div class="nav-items d-none">
-                    <ul class="navbar-list">
-                        <li><a href="#">HOME</a></li>
-                        <li class="d-none lg-d-block">
-                            <div class="star">
-                                <img src="images/icons/star-solid-full.png" alt="gray img">
-                            </div>
-                        </li>
-                        <li><a href="#">LATEST ARTICLES</a></li>
-                        <li class="d-none lg-d-block">
-                            <div class="star">
-                                <img src="images/icons/star-solid-full.png" alt="gray img">
-                            </div>
-                        </li>
-                        <li><a href="#">AUTHORS</a></li>
-                        <li class="d-none lg-d-block">
-                            <div class="star">
-                                <img src="images/icons/star-solid-full.png" alt="gray img">
-                            </div>
-                        </li>
-                        <li><a href="#">COMMUNITY</a></li>
-                    </ul>
-                </div>
-
-                <div class="subs-btn d-none">
-                    <button>SUBSCRIBE NOW</button>
-                </div>
-            </div>
-            <!-- end-navbar  -->
             <!-- hero content -->
             <div class="outer-content d-flex flex-wrap">
                 <div class="content lg-50">
@@ -226,16 +227,42 @@
                     </div>
                 </div>
             </div>
+            <div class="btn-container">
+                <div class="load-btn ">
+                    <button>+ LOAD MORE ARTICLES</button>
+                </div>
+            </div>
+            <div class="trending-now-sec">
+                <h2>TRENDING NOW</h2>
+                <div class="item item1  d-flex">
+                    <span>01</span>
+                    <div class="item-specs">
+                        <h3>The Death of Minimalism</h3>
+                        <p>12.5K reads • 🔥 Trending</p>
+                    </div>
+                </div>
+
+                <div class="item item2  d-flex">
+                    <span>02</span>
+                    <div class="item-specs">
+                        <h3>Chaos as a Design System</h3>
+                        <p>8.2K reads • ⚡ Rising</p>
+                    </div>
+                </div>
+
+                <div class="item item3  d-flex">
+                    <span>03</span>
+                    <div class="item-specs">
+                        <h3>Digital Rebellion</h3>
+                        <p>6.7K reads • 💥 Hot</p>
+                    </div>
+                </div>
+            </div>
+            
         </div>
     </div>
-
-
     <!-- end-latest articles section -->
-    <div class="footer">
-        <div class="container">
-            <span>© 2202</span>
-            <h1>HTMLSDDWD</h1>
-        </div>
+
 </body>
 
 </html>
